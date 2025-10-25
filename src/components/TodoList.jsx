@@ -4,7 +4,7 @@ const TodoList = (props) => {
   const {
     tasks = [],
     onDeleteTaskButtonClick,
-    onTaskCompleteChenge,
+    onTaskCompleteChange,
   } = props
 
   const hasTasks = true;
@@ -20,7 +20,7 @@ const TodoList = (props) => {
           className="todo__item"
           key={task.id}
           onDeleteTaskButtonClick={onDeleteTaskButtonClick}
-          onTaskCompleteChenge={onTaskCompleteChenge}
+          onTaskCompleteChange={onTaskCompleteChange}
           {...task}
         />
       ))}
