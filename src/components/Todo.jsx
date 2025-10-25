@@ -6,8 +6,10 @@ import TodoList from './TodoList'
 
 const Todo = () => {
   const [tasks, setTasks] = useState([
-    { id: 'task-1', title: 'Купить молоко', isDone: false },
-    { id: 'task-2', title: 'Погладить кота', isDone: true },
+    { id: 'task-1', title: 'bay milk', isDone: false },
+    { id: 'task-2', title: 'bay bread', isDone: true },
+    { id: 'task-3', title: 'bay coffee', isDone: false },
+    { id: 'task-4', title: 'bay orange', isDone: true },
   ])
   const [newTaskTitle, setNewTaskTitle] = useState('')
 

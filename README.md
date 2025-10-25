@@ -1,6 +1,6 @@
 # To  Do List React + Vite
 
-- Deploy: [link](https://ivan1986mrpl.github.io/to-do-react/dist/)
+- Deploy: [link](https://to-do-react-111.netlify.app/)
 
 - Technologies: SCSS, React, Vite, Eslint, Stylelint, Prettier
 
