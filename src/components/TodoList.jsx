@@ -1,17 +1,13 @@
-import TodoItem from "./TodoItem"
+import TodoItem from './TodoItem';
 
 const TodoList = (props) => {
-  const {
-    tasks = [],
-    onDeleteTaskButtonClick,
-    onTaskCompleteChange,
-  } = props
+  const { tasks = [], onDeleteTaskButtonClick, onTaskCompleteChange } = props;
 
   const hasTasks = true;
 
   if (!hasTasks) {
-    return <div className="todo__empty-message"></div>
-  } 
+    return <div className="todo__empty-message"></div>;
+  }
 
   return (
     <ul className="todo__list">
@@ -25,7 +21,7 @@ const TodoList = (props) => {
         />
       ))}
     </ul>
-  )  
-}
+  );
+};
 
-export default TodoList
+export default TodoList;

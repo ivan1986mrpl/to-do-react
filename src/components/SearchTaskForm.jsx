@@ -1,14 +1,14 @@
-import Field from "./Field"
+import Field from './Field';
 
 const SearchTaskForm = (props) => {
-  const {
-    onSearchInput,
-  } = props
-  
+  const { onSearchInput } = props;
+
   return (
-    <form 
+    <form
       className="todo__form"
-      onSubmit={(event) => {event.preventDefault()}}
+      onSubmit={(event) => {
+        event.preventDefault();
+      }}
     >
       <Field
         className="todo__field"
@@ -18,7 +18,7 @@ const SearchTaskForm = (props) => {
         onInput={(event) => onSearchInput(event.target.value)}
       />
     </form>
-  )
-}
+  );
+};
 
-export default SearchTaskForm
+export default SearchTaskForm;

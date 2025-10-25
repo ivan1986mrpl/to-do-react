@@ -13,10 +13,10 @@
 }
 
 .todo__title {
-  text-align: center;
   font-size: 24px;
   font-weight: 600;
   line-height: 1.2;
+  text-align: center;
 }
 
 .todo__form {

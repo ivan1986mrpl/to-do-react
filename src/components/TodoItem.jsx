@@ -6,7 +6,7 @@ const TodoItem = (props) => {
     isDone,
     onDeleteTaskButtonClick,
     onTaskCompleteChange,
-  } = props
+  } = props;
 
   return (
     <li className={`todo-item ${className}`}>
@@ -16,13 +16,10 @@ const TodoItem = (props) => {
         type="checkbox"
         checked={isDone}
         onChange={({ target }) => {
-          onTaskCompleteChange(id, target.checked)
+          onTaskCompleteChange(id, target.checked);
         }}
       />
-      <label
-        className="todo-item__label"
-        htmlFor={id}
-      >
+      <label className="todo-item__label" htmlFor={id}>
         {title}
       </label>
       <button
@@ -48,7 +45,7 @@ const TodoItem = (props) => {
         </svg>
       </button>
     </li>
-  )
-}
+  );
+};
 
-export default TodoItem
+export default TodoItem;
